@@ -1,49 +1,150 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      width="120px"
+      height="120px"
+      href="/src/images/icons/tripgoicon.png"
+    />
+    <meta
+      name="description"
+      content="Descubra o mundo com facilidade. Planeje, conecte-se e viva aventuras inesquecíveis com TripGo. Sua plataforma para experiências memoráveis."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TripGo | Planeje. Descubra. Conecte.</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <link rel="icon" type="image/x-icon" width="120px" height="120px" href="/src/images/icons/tripgoicon.png">
-  <meta name="description" content="Descubra o mundo com facilidade. Planeje, conecte-se e viva aventuras inesquecíveis com TripGo. Sua plataforma para experiências memoráveis." />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TripGo | Planeje. Descubra. Conecte.</title>
-  <link rel="stylesheet" href="./styles/main.css">
-  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg d-flex justify-content-between">
-    <div class="container-fluid">
-      <a class="navbar-brand"><img src="./images/icons/teste.png" width="60px" height="60px" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown link
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand"
+          ><img
+            src="./images/icons/teste.png"
+            width="60px"
+            height="60px"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown link
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
 
+    <div class="hero | row container-fluid p-0">
+      <div class="slides | col-7 p-0">
+        <div id="carrossel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/fotos/caribe.jpg"
+                class="d-block w-100"
+                alt="Linda fotografia em alta resolução do Caribe"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="h1 bg-glass text-black">Caribe</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/fotos/amsterdam.jpg"
+                class="d-block w-100"
+                alt="Linda fotografia em alta resolução de Amsterdam"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="h1 bg-glass">Second slide label</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/fotos/suiça.jpg"
+                class="d-block w-100"
+                alt="Linda fotografia em alta resolução da Suíça"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="h1 bg-glass">Third slide label</h5>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carrossel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carrossel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-5 p-0 bg-dark">
+        <div class="textos-hero">
+          <h3 class="display-2 text-white">Realize a viagem do seu sonho</h3>
+          <p class="text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+            odio maiores ut eveniet, eius aspernatur.
+          </p>
+        </div>
+        <div class="buttons-hero"></div>
+      </div>
     </div>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-</body>
-
+  </body>
+  Lorem ipsum dolor sit amet consectetur.
 </html>
