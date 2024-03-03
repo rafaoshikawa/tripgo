@@ -3,14 +3,47 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta property="og:image" content=".." />
+  <link rel="icon" type="image/x-icon" width="120px" height="120px" href="/src/images/icons/tripgoicon.png">
   <meta name="description" content="Descubra o mundo com facilidade. Planeje, conecte-se e viva aventuras inesquecíveis com TripGo. Sua plataforma para experiências memoráveis." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TripGo | Planeje. Descubra. Conecte.</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+    <div class="container-fluid">
+      <a class="navbar-brand"><img src="./images/icons/teste.png" width="60px" height="60px" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
 
+    </div>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
