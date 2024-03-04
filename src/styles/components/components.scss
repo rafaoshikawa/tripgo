@@ -1,0 +1,27 @@
+.-btn {
+  width: 150px;
+  height: 35px;
+  background-color: #283618; //MUDAR PARA VARÍAVEL $PRIMARY, que vai ser declarada depois
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fff;
+  transition: 0.3s;
+  color: #fff;
+  font-weight: bold;
+}
+
+.-btn-outline {
+  background-color: transparent !important;
+}
+
+.-btn-large {
+  width: 200px !important;
+  height: 45px !important;
+}
+
+.-btn:hover {
+  transform: scale(1.1);
+  background-color: #2836186d;
+}
