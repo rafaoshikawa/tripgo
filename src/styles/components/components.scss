@@ -25,3 +25,9 @@
   transform: scale(1.1);
   background-color: #2836186d;
 }
+
+.hero {
+  .-btn {
+    color: red($color: #000000);
+  }
+}

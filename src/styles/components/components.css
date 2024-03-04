@@ -24,4 +24,8 @@
 .-btn:hover {
   transform: scale(1.1);
   background-color: rgba(40, 54, 24, 0.4274509804);
-}/*# sourceMappingURL=components.css.map */
+}
+
+.hero .-btn {
+  color: 0;
+}
