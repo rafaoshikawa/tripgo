@@ -1,0 +1,30 @@
+section.quote {
+  background-image: url("../../images/fotos/quote.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+
+  display: grid;
+}
+
+section.quote div {
+  place-self: center;
+}
+
+section.quote blockquote p {
+  color: #fefae0;
+  max-width: 38ch;
+  position: relative;
+}
+
+section.quote figcaption cite {
+  color: #fefae0a2;
+}
+
+@media (width <= 680) {
+  section.quote {
+    height: 300px;
+  }
+}
