@@ -1,0 +1,16 @@
+footer {
+  background-color: #283618;
+  color: #d5be94;
+}
+
+.footer-btn {
+  background-color: transparent;
+}
+
+footer li a:hover {
+  color: #ffffff !important; /* TROCAR PARA VARIÁVEL */
+}
+
+footer svg {
+  fill: #d5be94;
+}
