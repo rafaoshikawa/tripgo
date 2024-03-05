@@ -1,151 +1,121 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      width="120px"
-      height="120px"
-      href="/src/images/icons/tripgoicon.png"
-    />
-    <meta
-      name="description"
-      content="Descubra o mundo com facilidade. Planeje, conecte-se e viva aventuras inesquecíveis com TripGo. Sua plataforma para experiências memoráveis."
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TripGo | Planeje. Descubra. Conecte.</title>
-    <link rel="stylesheet" href="./styles/main.css" />
-    <link
-      rel="stylesheet"
-      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
-  </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img
-            src="./images/icons/tripgoicon.png"
-            width="80px"
-            height="80px"
-            alt="/  "
-        /></a>
-        <button
-          class="navbar-toggler"
-          style="background-color: white"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <div class="mx-auto"></div>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Locais</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Planos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
-            </li>
-            <li>
-              <button type="button" class="-btn btn-lg rounded-4">
-                Cadastre-se
-              </button>
-            </li>
-          </ul>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/x-icon" width="120px" height="120px" href="/src/images/icons/tripgoicon.png" />
+  <meta name="description" content="Descubra o mundo com facilidade. Planeje, conecte-se e viva aventuras inesquecíveis com TripGo. Sua plataforma para experiências memoráveis." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TripGo | Planeje. Descubra. Conecte.</title>
+  <link rel="stylesheet" href="./styles/main.css" />
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/"><img src="./images/icons/tripicon.png" width="150px" height="40px" alt="logo tripGo" /></a>
+      <button class="navbar-toggler" style="background-color: white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Locais</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Planos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+          <li>
+            <button type="button" class="-btn btn-lg rounded-4">
+              Cadastre-se
+            </button>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <section class="hero | row h-100 container-fluid p-0 m-0">
-      <div class="slides | col-lg-7 p-0">
-        <div id="carrossel" class="carousel slide">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="./images/fotos/amsterdam.jpg"
-                class="d-block w-100"
-                alt="Linda fotografia em alta resolução do Caribe"
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5 class="h1 text-black">Amsterdam</h5>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./images/fotos/paris.jpg"
-                class="d-block w-100"
-                alt="Linda fotografia em alta resolução de Amsterdam"
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5 class="h1 text-black">Paris</h5>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./images/fotos/suica.jpg"
-                class="d-block w-100"
-                alt="Linda fotografia em alta resolução da Suíça"
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5 class="h1 text-black">Suíça</h5>
-              </div>
+  <section class="hero | row h-100 container-fluid p-0 m-0">
+    <div class="slides | col-lg-7 p-0">
+      <div id="carrossel" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/fotos/amsterdam.jpg" class="d-block w-100" alt="Linda fotografia em alta resolução do Caribe" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-large">Amsterdam</h5>
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carrossel"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carrossel"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="carousel-item">
+            <img src="./images/fotos/paris.jpg" class="d-block w-100" alt="Linda fotografia em alta resolução de Amsterdam" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-large">Paris</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/fotos/suica.jpg" class="d-block w-100" alt="Linda fotografia em alta resolução da Suíça" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-large">Suíça</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrossel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrossel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="col-lg-5 p-0 d-flex flex-column justify-content-center bg-dark p-3 pt-5">
+      <div class="textos-hero">
+        <h3 class="display-4 text-white mb-lg-2 pt-3">
+          Realize a viagem do seu sonho
+        </h3>
+        <p class="text-white fs-6 mb-4">
+          Somos referência mundial para viagens internacionais, com mais de
+          6.000 experiências realizadas com pessoas do mundo inteiro.
+        </p>
+      </div>
+      <div class="btn-hero d-flex justify-content-center gap-5">
+        <button type="button" class="-btn -btn-large -btn-outline btn-lg rounded-4">
+          DESTINOS
+        </button>
+        <button type="button" class="-btn -btn-large rounded-4">
+          PLANOS
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- FAQ -->
+  <section class="container-FAQ">
+    <div class="tittle">
+      <h5 class="text-center">AINDA ESTÁ COM DÚVIDAS?</h5>
+      <h3 class="text-center faq-title">Perguntas Frequentes</h3>
+    </div>
+    <div class=" accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item accordion-container">
+        <h2 class="accordion-header " id="flush-headingOne"> <button class="accordion-button collapsed color-body " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"> → Posso cancelar a viagem? </button> </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias praesentium fugiat non, ullam accusamus incidunt, <code>sapiente accusantium</code> quos cumque illum magni quod. Tempore consequuntur corrupti eum nisi odit nemo atquequos cumque illum magni quod. Tempore consequuntur corrupti eum nisi odit nemo atque.</div>
         </div>
       </div>
-      <div
-        class="col-lg-5 p-0 d-flex flex-column justify-content-center bg-dark p-3 pt-5"
-      >
-        <div class="textos-hero">
-          <h3 class="display-2 text-white mb-lg-2 pt-3">
-            Realize a viagem do seu sonho
-          </h3>
-          <p class="text-white fs-5 mb-4">
-            Somos referência mundial para viagens internacionais, com mais de
-            6.000 experiências realizadas com pessoas do mundo inteiro.
-          </p>
-        </div>
-        <div class="btn-hero d-flex justify-content-center gap-5">
-          <button
-            type="button"
-            class="-btn -btn-large -btn-outline btn-lg rounded-4"
-          >
-            DESTINOS
-          </button>
-          <button type="button" class="-btn -btn-large rounded-4">
-            PLANOS
-          </button>
+      <div class="accordion-item accordion-container">
+        <h2 class="accordion-header " id="flush-headingOne"> <button class="accordion-button collapsed color-body " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"> → Qual a garantia que tenho se perder o voo? </button> </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias praesentium fugiat non, ullam accusamus incidunt, <code>sapiente accusantium</code> quos cumque illum magni quod. Tempore consequuntur corrupti eum nisi odit nemo atquequos cumque illum magni quod. Tempore consequuntur corrupti eum nisi odit nemo atque.</div>
         </div>
       </div>
     </section>
@@ -243,5 +213,28 @@
     </section>
 
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  </body>
+
+      <div class="accordion-item accordion-container">
+        <h2 class="accordion-header " id="flush-headingOne"> <button class="accordion-button collapsed color-body " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"> → Qual a principal forma de viagem? </button> </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias praesentium fugiat non, ullam accusamus incidunt, <code>sapiente accusantium</code> quos cumque illum magni quod. Tempore consequuntur corrupti eum nisi odit nemo atquequos cumque illum magni quod. Tempore consequuntur corrupti eum nisi odit nemo atque.</div>
+        </div>
+      </div>
+      <div class="accordion-item accordion-container">
+        <h2 class="accordion-header " id="flush-headingOne"> <button class="accordion-button collapsed color-body " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour"> → Qual o melhor destino de viagem? </button> </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias praesentium fugiat non, ullam accusamus incidunt, <code>sapiente accusantium</code> quos cumque illum magni quod. Tempore consequuntur corrupti eum nisi odit nemo atquequos cumque illum magni quod. Tempore consequuntur corrupti eum nisi odit nemo atque.</div>
+        </div>
+      </div>
+    </div>
+    <div class="tittle">
+      <h5 class="text-center mt-5">FALE CONOSCO PARA MAIS DÚVIDAS</h5>
+      <button type="button" class="mx-auto -btn -btn-large rounded-3 mb-5 mt-4">
+        Comprar Plano
+      </button>
+    </div>
+  </section>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
 </html>
