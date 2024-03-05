@@ -1,0 +1,36 @@
+.-btn {
+  width: 150px;
+  height: 35px;
+  background-color: #283618;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fff;
+  transition: 0.3s;
+  color: #fff;
+  font-weight: bold;
+}
+
+.-btn-outline {
+  background-color: transparent !important;
+}
+
+.-btn-large {
+  width: 200px !important;
+  height: 45px !important;
+}
+
+.-btn:hover {
+  transform: scale(1.1);
+  background-color: rgba(40, 54, 24, 0.4274509804);
+} /*# sourceMappingURL=components.css.map */
+
+.text-large {
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+}
+body {
+  background-color: #fefae0 !important;
+}

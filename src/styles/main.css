@@ -1,0 +1,7 @@
+/* nossos utilitários */
+@import "./components/components.css";
+
+@import "./navbar/navbar.css";
+@import "./hero.css";
+@import "./main.css";
+@import "./FAQ/faq.css";
